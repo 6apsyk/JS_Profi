@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(15, 2, 27);
+  color: rgb(66, 230, 51);
+}
+
+.button {
+  width: 150px;
+  box-shadow: 2px 2px chartreuse;
+  background-color: chocolate;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  transition: all;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: rgb(243, 161, 102);
+}
+
+.items {
+  display: flex;
+  margin-right: 50px;
+  margin-top: 30px;
+  div {
+    margin-right: 50px;
+    background-color: rgb(71, 6, 19);
+    width: 100px;
+    text-align: center;
+    opacity: 0.6;
+    transition: opacity 1s;
+    cursor: pointer;
+  }
+  div:hover {
+    opacity: 1;
+  }
+}
