@@ -1,0 +1,44 @@
+body {
+  background-color: #0f021b;
+  color: #42e633;
+}
+
+.button {
+  width: 150px;
+  -webkit-box-shadow: 2px 2px chartreuse;
+          box-shadow: 2px 2px chartreuse;
+  background-color: chocolate;
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  -webkit-transition: all;
+  transition: all;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #f3a166;
+}
+
+.items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.items div {
+  margin-right: 50px;
+  background-color: #470613;
+  width: 100px;
+  text-align: center;
+  opacity: 0.6;
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+  cursor: pointer;
+}
+
+.items div:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
